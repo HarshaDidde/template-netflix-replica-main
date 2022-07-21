@@ -1,0 +1,38 @@
+.container{
+    display:flex;
+    justify-content: space-between;
+    height: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: black;
+    align-items: center;
+}
+
+.subcontainer{
+    display: flex;
+    align-items: center;
+}
+
+.container img{
+    height: 50px;
+    width: auto;
+}
+
+.thumbnail{
+    height: 30px;
+    width: 30px;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 3px;
+    margin-right: 4px;
+}
+
+.thumbnailcontainer{
+    display: flex;
+    align-items: center;
+}
+
+.thumbnailcontainer img{
+    height:7px;
+    width: auto;
+}
